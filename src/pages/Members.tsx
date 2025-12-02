@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import hodImage from "../assets/hod-image.jpg";
 
 interface FacultyCardProps {
   name: string;
@@ -23,7 +24,7 @@ const FacultyCard: React.FC<FacultyCardProps> = ({
       <img
         src={image}
         alt={name}
-        className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
+        className='w-full h-full object-contain transition-transform duration-500 group-hover:scale-105'
       />
       <div className='absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-4'>
         <a
@@ -63,41 +64,10 @@ const Members: React.FC = () => {
           </h2>
           <div className='max-w-md mx-auto'>
             <FacultyCard
-              name='Dr. S. K. Gupta'
+              name='Dr. Soumen Paul'
               role='Professor & HOD'
-              spec='Artificial Intelligence'
-              image='https:/
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               /picsum.photos/400/500?random=50'
+              spec='M.Tech., Ph.D.'
+              image={hodImage}
             />
           </div>
         </div>

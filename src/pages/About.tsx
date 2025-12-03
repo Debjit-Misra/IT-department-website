@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Target, Eye, Award, History } from "lucide-react";
+import deptGateImage from "../assets/IT-gate.jpg";
 
 const About: React.FC = () => {
   return (
@@ -76,12 +77,12 @@ const About: React.FC = () => {
         </div>
 
         {/* History */}
-        <div className='flex flex-col md:flex-row items-center gap-12'>
-          <div className='w-full md:w-1/2'>
+        {/* <div className='flex flex-col md:flex-row items-center gap-12'>
+          <div className='w-full md:w-1/2 bg-red-300'>
             <img
-              src='https://picsum.photos/800/600?random=10'
+              src={deptGateImage}
               alt='Department History'
-              className='rounded-2xl shadow-lg'
+              className='rounded-2xl shadow-lg h-full'
             />
           </div>
           <div className='w-full md:w-1/2 space-y-6'>
@@ -102,7 +103,7 @@ const About: React.FC = () => {
               strength to keep pace with the rapidly evolving tech landscape.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Achievements Section */}
         <div>

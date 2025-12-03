@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, GraduationCap, Search } from "lucide-react";
-import hodImage from "../assets/hod-image.jpg";
+import hodImage from "../assets/members/hod-image.jpg";
+import ahanaImage from "../assets/members/ahana-img.jpg";
+import amitImage from "../assets/members/amit-img.jpg";
+import ayanImage from "../assets/members/ayan-image.jpg";
+import bananiImage from "../assets/members/debolina-img.jpg";
+import manasijaImage from "../assets/members/manasija-img.jpg";
+import susantaImage from "../assets/members/susanta-img.jpg";
+import arpitaImage from "../assets/members/arpita-img.jpg";
+import tamosaImage from "../assets/members/tamosa-img.jpg";
+import mrigankaImage from "../assets/members/mriganka-img.jpg";
 
 interface FacultyMember {
   name: string;
@@ -72,6 +81,7 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "MCA, M.Tech., Ph.D.",
     category: "assistant",
+    image: bananiImage,
   },
   {
     name: "Sri Pranab Goswami",
@@ -84,12 +94,14 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "M.Tech.",
     category: "assistant",
+    image: manasijaImage,
   },
   {
     name: "Mrs. Tamosa Chakraborty",
     designation: "Asst. Professor",
     qualification: "M.Tech.",
     category: "assistant",
+    image: tamosaImage,
   },
   {
     name: "Sri Pijush Bairi",
@@ -114,18 +126,21 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "M.Tech. (IT)",
     category: "assistant",
+    image: amitImage,
   },
   {
     name: "Ms. Ahana Guchait",
     designation: "Asst. Professor",
     qualification: "M.Tech. (CSE)",
     category: "assistant",
+    image: ahanaImage,
   },
   {
     name: "Sri Ayan Mukherji",
     designation: "Asst. Professor",
     qualification: "M.Tech. (CSE)",
     category: "assistant",
+    image: ayanImage,
   },
   {
     name: "Sri Santanu Das",
@@ -144,6 +159,7 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "M.Tech. [VLSI & Microelectronics]",
     category: "assistant",
+    image: mrigankaImage,
   },
   {
     name: "Sri Aditya Kumar Pathak",
@@ -168,6 +184,7 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "M.Tech. [IT]",
     category: "assistant",
+    image: susantaImage,
   },
   {
     name: "Sri Saheb Santra",
@@ -180,6 +197,7 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "ME [Software Engg.]",
     category: "assistant",
+    image: arpitaImage,
   },
   {
     name: "Sri Debjyoti Adhikari",
@@ -243,7 +261,7 @@ const FacultyCard: React.FC<FacultyCardProps> = ({ member }) => {
       whileHover={{ y: -5 }}
       className='bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full'
     >
-      <div className='p-6 flex flex-col items-center text-center flex-grow'>
+      <div className='p-6 flex flex-col items-center text-center grow'>
         <div className='w-32 h-32 rounded-full overflow-hidden mb-5 border-4 border-blue-50 shadow-sm relative group'>
           <img
             src={displayImage}

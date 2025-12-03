@@ -54,7 +54,7 @@ const Academics: React.FC = () => {
                   link.download = "BTech-IT-Syllabus.pdf";
                   link.click();
                 }}
-                className='flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition-colors'
+                className='flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg cursor-pointer shadow hover:bg-blue-700 transition-colors'
               >
                 <Download className='w-4 h-4 mr-2' /> Download Syllabus PDF
               </button>

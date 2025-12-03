@@ -7,7 +7,7 @@ import heroImg2 from "../assets/hero-img2.jpg";
 import galleryImage1 from "../assets/gallery1.jpg";
 import galleryImage2 from "../assets/gallery2.jpg";
 import galleryImage3 from "../assets/gallery3.jpg";
-import hodImage from "../assets/hod-image.jpg";
+import hodImage from "../assets/members/hod-image.jpg";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },

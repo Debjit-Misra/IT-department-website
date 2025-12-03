@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Target, Eye, Award, History } from "lucide-react";
-import deptGateImage from "../assets/IT-gate.jpg";
+import { Target, Eye, Award,} from "lucide-react";
 
 const About: React.FC = () => {
   return (

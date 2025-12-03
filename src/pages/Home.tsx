@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   return (
     <div className='overflow-hidden'>
       {/* Hero Section */}
-      <section className='relative min-h-screen flex items-center justify-center pt-20 bg-linear-to-br from-blue-50 via-white to-blue-50'>
+      <section className='relative min-h-screen flex items-center justify-center pt-30 lg:pt-20 bg-linear-to-br from-blue-50 via-white to-blue-50'>
         <div className='absolute inset-0 overflow-hidden'>
           <div className='absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-3xl opacity-60' />
           <div className='absolute top-40 -left-20 w-[400px] h-[400px] bg-cyan-100/50 rounded-full blur-3xl opacity-60' />
@@ -77,7 +77,6 @@ const Home: React.FC = () => {
                 src={heroImg}
                 alt='IT Department Students'
                 className='w-full h-[500px] object-cover'
-                // style={{ transform: "translateY(10%)" }}
               />
               <div className='absolute inset-0 bg-linear-to-t from-black/50 to-transparent flex items-end p-8'>
                 <div className='text-white'>

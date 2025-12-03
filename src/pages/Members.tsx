@@ -5,12 +5,13 @@ import hodImage from "../assets/members/hod-image.jpg";
 import ahanaImage from "../assets/members/ahana-img.jpg";
 import amitImage from "../assets/members/amit-img.jpg";
 import ayanImage from "../assets/members/ayan-image.jpg";
-import bananiImage from "../assets/members/debolina-img.jpg";
+import bananiImage from "../assets/members/banani-img.jpg";
 import manasijaImage from "../assets/members/manasija-img.jpg";
 import susantaImage from "../assets/members/susanta-img.jpg";
 import arpitaImage from "../assets/members/arpita-img.jpg";
 import tamosaImage from "../assets/members/tamosa-img.jpg";
 import mrigankaImage from "../assets/members/mriganka-img.jpg";
+import debolinaImage from "../assets/members/debolina-img.jpg";
 
 interface FacultyMember {
   name: string;
@@ -114,6 +115,7 @@ const facultyList: FacultyMember[] = [
     designation: "Asst. Professor",
     qualification: "M.Tech.",
     category: "assistant",
+    image: debolinaImage,
   },
   {
     name: "Mrs. Moumita Ghosh",

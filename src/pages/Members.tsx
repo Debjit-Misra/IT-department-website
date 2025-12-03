@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, GraduationCap, Search } from "lucide-react";
+import hodImage from "../assets/hod-image.jpg";
 
 interface FacultyMember {
   name: string;
@@ -16,8 +17,7 @@ const facultyList: FacultyMember[] = [
     designation: "Professor & Head",
     qualification: "M.Tech., Ph.D.",
     category: "head",
-    image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80", // Placeholder image for HOD
+    image: hodImage,
   },
   {
     name: "Dr. Sk. Sahnawaj",

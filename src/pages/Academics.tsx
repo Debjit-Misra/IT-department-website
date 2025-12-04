@@ -49,8 +49,7 @@ const Academics: React.FC = () => {
               <button
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href =
-                    "../public/Proposed-Syllabus_academic_year_2024_25.pdf";
+                  link.href = "/Proposed-Syllabus_academic_year_2024_25.pdf";
                   link.download = "BTech-IT-Syllabus.pdf";
                   link.click();
                 }}
